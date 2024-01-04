@@ -1,0 +1,85 @@
+{
+    "s1": {
+        "titulo": "FOTÓGRAFO",
+        "nombre": "IVAN FERNÁNDEZ",
+        "op1": "PACOTE COMPLETO EM 2 DIAS",
+        "op2": "SATISFAÇÃO GARANTIDA",
+        "op3": "FOTOGRAFE PRIMEIRO, PAGUE DEPOIS",
+        "boton": "ENTRE EM CONTATO"
+    },
+    "s2": {
+        "subtitulo": "SOBRE MIM",
+        "titulo": "FOTÓGRAFO PROFISSIONAL",
+        "contenido": "Eu sou Ivan Fernández, um apaixonado por fotografia dedicado a capturar momentos únicos e transformá-los em lembranças eternas. Meu objetivo é ir além de simplesmente tirar fotos; busco contar histórias por meio de imagens, congelando instantes cheios de emoção, beleza e autenticidade. <br> Cada sessão é uma nova aventura, e eu adoro mergulhar na singularidade de cada pessoa, evento ou lugar que fotografo. Minha abordagem é baseada na criatividade, sensibilidade e técnica, buscando sempre a imagem perfeita que fale por si mesma. Explore meu portfólio e descubra meu estilo distintivo, onde a luz, a composição e a conexão emocional são protagonistas. Seja em retratos, eventos especiais ou projetos criativos, eu me esforço para capturar a essência única de cada momento. Trabalho com paixão e comprometimento para oferecer um serviço personalizado que supere suas expectativas. <br> Se você está procurando um fotógrafo que não apenas capture imagens, mas também conte histórias visuais, você está no lugar certo. Obrigado por visitar meu site. Estou animado com a possibilidade de fazer parte da sua próxima experiência fotográfica. Pronto para criar memórias inesquecíveis juntos? Vamos capturar momentos mágicos!"
+    },
+    "s3": {
+        "subtitulo": "GÊNEROS",
+        "titulo": "ESPECIALIZO-ME EM TUDO",
+        "contenido": "Embora eu adore fotografar praticamente qualquer coisa, desde microscopia até passarelas elevadas, tenho um amor particular pelos cinco gêneros que você vê abaixo."
+    },
+    "c1": {
+        "subtitulo": "RESERVA DISPONÍVEL",
+        "titulo": "FOTOGRAFIA DE MODA",
+        "contenido": "Hipnotize seu público-alvo com fotos perfeitas de sua coleção.",
+        "boton": "RESERVAR"
+    },
+    "c2": {
+        "subtitulo": "RESERVA DISPONÍVEL",
+        "titulo": "CASAMENTOS",
+        "contenido": "Faça o dia mais importante de sua vida ficar com você para sempre.",
+        "boton": "RESERVAR"
+    },
+    "c3": {
+        "subtitulo": "RESERVA DISPONÍVEL",
+        "titulo": "RETRATO FAMILIAR",
+        "contenido": "Capture momentos fugazes que tenham um significado especial para sua família.",
+        "boton": "RESERVAR"
+    },
+    "c4": {
+        "subtitulo": "RESERVA DISPONÍVEL",
+        "titulo": "FOTOGRAFIA COMERCIAL DE COMIDA",
+        "contenido": "Imagens deliciosas e apetitosas de comida para seus folhetos, promoções e sites.",
+        "boton": "RESERVAR"
+    },
+    "c5": {
+        "subtitulo": "RESERVA DISPONÍVEL",
+        "titulo": "FOTOGRAFIA REPORTAGEM",
+        "contenido": "Uma série de fotografias no estilo de notícias de seus eventos: exposições, congressos ou férias.",
+        "boton": "RESERVAR"
+    },
+    "s4": {
+        "subtitulo": "PORTFÓLIO",
+        "titulo": "UMA IMAGEM VALE MAIS QUE MIL PALAVRAS"
+    },
+    "s5": {
+        "texto": "Junte-se ao meu Instagram para ver mais fotos.",
+        "boton": "MAIS NO INSTAGRAM"
+    },
+    "s6": {
+        "subtitulo": "DEPOIMENTOS",
+        "titulo": "O QUE MEUS CLIENTES DIZEM",
+        "comentario1": "Contratei Iván Fernandez para capturar os momentos especiais do nosso casamento, e não poderíamos estar mais felizes com o resultado! Cada foto conta uma história, e sua habilidade em capturar a emoção é incomparável.",
+        "nombre1": "STEVEN T.",
+        "tipo1": "Casamentos",
+        "comentario2": "Contratamos Ivan Fernández para documentar nosso cardápio gastronômico, e a experiência foi simplesmente excepcional. Cada prato foi imortalizado com uma maestria que vai além da simples fotografia de alimentos.",
+        "nombre2": "LUIS G.",
+        "tipo2": "Fotografia Familiar",
+        "comentario3": "Ivan Fernández tornou nossa sessão familiar divertida e relaxada. As fotos são incríveis, e cada membro da família parece natural e bonito. Sua atenção aos detalhes e paciência são insuperáveis.",
+        "nombre3": "RUTH L.",
+        "tipo3": "Fotografia de Comida"
+    },
+    "s7": {
+        "titulo": "Feedback",
+        "texto": "Por favor, compartilhe suas opiniões no campo de Comentário",
+        "f1": "nombre",
+        "f2": "Sobrenombre",
+        "f3": "Telefone",
+        "f4": "E-mail",
+        "f5": "Comentário",
+        "boton": "Enviar"
+    },
+    "s8": {
+        "nombre": "Ivan Fernández",
+        "dato": "TELEFONE +123456789"
+    }
+}

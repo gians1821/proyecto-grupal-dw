@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 0;
+    border-color: #fff transparent transparent transparent;
+}
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 25px;
+    right: 10px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover {
+    text-decoration: none;
+    background: #fff;
+}
+
+.flags {
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags_items {
+    width: 30px;
+}
+
+.flags_items img {
+    display: block;
+    cursor: pointer;
+}

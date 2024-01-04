@@ -1,0 +1,85 @@
+{
+    "s1": {
+        "titulo": "PHOTOGRAPHER",
+        "nombre": "IVAN FERNANDEZ",
+        "op1": "FULL PACKAGE IN 2 DAYS",
+        "op2": "SATISFACTION GUARANTEED",
+        "op3": "SHOOT FIRST, PAY LATER",
+        "boton": "CONTACT ME"
+    },
+    "s2": {
+        "subtitulo": "ABOUT ME",
+        "titulo": "PROFESSIONAL PHOTOGRAPHER",
+        "contenido": "I am Ivan Fernandez, a photography enthusiast dedicated to capturing unique moments and transforming them into everlasting memories. My goal is to go beyond just taking photos; I seek to tell stories through images, freezing moments full of emotion, beauty, and authenticity. <br> Each session is a new adventure, and I love immersing myself in the uniqueness of each person, event, or place I photograph. My approach is based on creativity, sensitivity, and technique, always striving for the perfect image that speaks for itself. Explore my portfolio and discover my distinctive style, where light, composition, and emotional connection take center stage. Whether in portraits, special events, or creative projects, I strive to capture the unique essence of every moment. I work with passion and commitment to provide you with a personalized service that exceeds your expectations. <br> If you're looking for a photographer who not only captures images but also tells visual stories, you're in the right place. Thank you for visiting my website. I am excited about the possibility of being part of your next photographic experience. Ready to create unforgettable memories together? Let's capture magical moments!"
+    },
+    "s3": {
+        "subtitulo": "GENRES",
+        "titulo": "I SPECIALIZE IN EVERYTHING",
+        "contenido": "While I love taking photos and films of virtually anything, from microscopy to elevated steps, I am particularly in love with the five genres you see below."
+    },
+    "c1": {
+        "subtitulo": "AVAILABLE BOOKING",
+        "titulo": "FASHION PHOTOGRAPHY",
+        "contenido": "Mesmerize your target audience with perfect photos of your collection.",
+        "boton": "BOOK NOW"
+    },
+    "c2": {
+        "subtitulo": "AVAILABLE BOOKING",
+        "titulo": "WEDDINGS",
+        "contenido": "Make the most important day of your life stay with you forever.",
+        "boton": "BOOK NOW"
+    },
+    "c3": {
+        "subtitulo": "AVAILABLE BOOKING",
+        "titulo": "FAMILY PORTRAITS",
+        "contenido": "Capture fleeting moments that hold special meaning for your family.",
+        "boton": "BOOK NOW"
+    },
+    "c4": {
+        "subtitulo": "AVAILABLE BOOKING",
+        "titulo": "COMMERCIAL FOOD PHOTOGRAPHY",
+        "contenido": "Delicious and appetizing food images for your brochures, promotions, and websites.",
+        "boton": "BOOK NOW"
+    },
+    "c5": {
+        "subtitulo": "AVAILABLE BOOKING",
+        "titulo": "REPORTAGE PHOTOGRAPHY",
+        "contenido": "A series of news-style photographs of your events: exhibitions, conferences, or vacations.",
+        "boton": "BOOK NOW"
+    },
+    "s4": {
+        "subtitulo": "PORTFOLIO",
+        "titulo": "A PICTURE IS WORTH A THOUSAND WORDS"
+    },
+    "s5": {
+        "texto": "Join my Instagram to see more photos.",
+        "boton": "MORE ON INSTAGRAM"
+    },
+    "s6": {
+        "subtitulo": "TESTIMONIALS",
+        "titulo": "WHAT MY CLIENTS SAY",
+        "comentario1": "I hired Ivan Fernandez to capture the special moments of our wedding, and we couldn't be happier with the result! Each photo tells a story, and his ability to capture emotion is unmatched.",
+        "nombre1": "STEVEN T.",
+        "tipo1": "Weddings",
+        "comentario2": "We hired Ivan Fernandez to document our gastronomic menu, and the experience was simply exceptional. Each dish was immortalized with a mastery that goes beyond simple food photography.",
+        "nombre2": "LUIS G.",
+        "tipo2": "Family Photography",
+        "comentario3": "Ivan Fernandez made our family session fun and relaxed. The photos are amazing, and every family member looks natural and beautiful. His attention to detail and patience are unparalleled.",
+        "nombre3": "RUTH L.",
+        "tipo3": "Food Photography"
+    },
+    "s7": {
+        "titulo": "Feedback",
+        "texto": "Please share your opinions in the Comment field",
+        "f1": "nombre",
+        "f2": "Last nombre",
+        "f3": "Phone",
+        "f4": "Email",
+        "f5": "Comment",
+        "boton": "Submit"
+    },
+    "s8": {
+        "nombre": "Ivan Fernandez",
+        "dato": "PHONE +123456789"
+    }
+}
