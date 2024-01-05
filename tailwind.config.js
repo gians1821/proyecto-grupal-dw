@@ -26,5 +26,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-export default m

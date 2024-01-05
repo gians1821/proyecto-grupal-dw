@@ -1,6 +1,8 @@
 const contentSidebar = document.getElementById("contentSidebar");
 const sidebarDerecha = document.getElementById("sidebarDerecha");
 const sidebarIzquierda = document.getElementById("sidebarIzquierda");
+const $check = document.querySelector("#check")
+const $ulNav = document.querySelector("#ul__nav")
 
 sidebarDerecha.addEventListener("click", function (e) {
   contentSidebar.scrollTo({
@@ -49,3 +51,11 @@ const changeLenguaje = async (lenguaje) => {
 flagsElement.addEventListener("click", (e) => {
     changeLenguaje(e.target.parentElement.dataset.lenguaje);
 });
+
+$check.addEventListener('change', () => {
+  if ($check.checked) {
+    $ulNav.classList.add('left-[0]')
+  } else {
+    $ulNav.classList.remove('left-[0]')
+  }
+}) 

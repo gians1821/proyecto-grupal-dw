@@ -14,42 +14,60 @@
 </head>
 
 <body class="bg-principal">
-    <section>
-        <div class="w-full h-screen relative">
-            <img src="../img/principal.jpg" class="w-full h-full object-cover">
-            <div class="flags flex" id="flags">
+    <nav class="bg-principal h-[80px] w-full">
+        <input class="hidden" type="checkbox" id="check">
+        
+        <div class="flex h-full justify-between mx-4">
+            <div class="flags space-x-2" id="flags">
                 <div class="flags_items" data-lenguaje="es">
-                  <img src="../iconos/es.svg">
+                    <img src="../iconos/es.svg">
                 </div>
                 <div class="flags_items" data-lenguaje="en">
-                  <img src="../iconos/en.svg">
+                    <img src="../iconos/en.svg">
                 </div>
                 <div class="flags_items" data-lenguaje="pt">
-                  <img src="../iconos/pt.svg">
+                    <img src="../iconos/pt.svg">
                 </div>
-              </div>
+            </div>
+            <ul id="ul__nav" class="fixed transition-all duration-300 w-full h-[80%] left-[-100%] top-[80px] bg-silver md:top-0 md:bg-transparent md:h-auto md:left-0 md:w-auto md:relative md:flex md:self-center md:space-x-2">
+                <li class="hover:bg-metal px-2 my-8 mx-2 py-1 rounded-md"><a data-section="nav" data-value="nav1" class="hover:text-white block w-full px-2 py-2 text-md text-black md:text-white" href="#home">INICIO</a></li>
+                <li class="hover:bg-metal px-2 my-8 mx-2 py-1 rounded-md"><a data-section="nav" data-value="nav2" class="hover:text-white block w-full px-2 py-2 text-md text-black md:text-white" href="#about">SOBRE MÍ</a></li>
+                <li class="hover:bg-metal px-2 my-8 mx-2 py-1 rounded-md"><a data-section="nav" data-value="nav3" class="hover:text-white block w-full px-2 py-2 text-md text-black md:text-white" href="#genres">GÉNEROS</a></li>
+                <li class="hover:bg-metal px-2 my-8 mx-2 py-1 rounded-md"><a data-section="nav" data-value="nav4" class="hover:text-white block w-full px-2 py-2 text-md text-black md:text-white" href="#portfolio">PORTAFOLIO</a></li>
+                <li class="hover:bg-metal px-2 my-8 mx-2 py-1 rounded-md"><a data-section="nav" data-value="nav5" class="hover:text-white block w-full px-2 py-2 text-md text-black md:text-white" href="#reviews">RESEÑAS</a></li>
+                <li class="hover:bg-metal px-2 my-8 mx-2 py-1 rounded-md"><a data-section="nav" data-value="nav6" class="hover:text-white block w-full px-2 py-2 text-md text-black md:text-white" href="#feedback">FEEDBACK</a></li>
+            </ul>
+            <label for="check" class="checkbtn text-[30px] text-white cursor-pointer md:hidden self-center">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+    </nav>
+    <section id="home" class="z-[-100]">
+        <div class="z-[-100] w-full h-screen relative">
+            <img src="../img/principal.jpg" class="w-full h-full object-cover">
+            
             <div class="contenedor-padre flex justify-center items-center pb-1 inset-0 absolute">
                 <div class="contenedor-hijo w-3/4">
                     <div class="text-center">
-                        <h1 class="text-2xl md:text-2xl lg:text-xl font-['Nunito'] text-slate-200" data-section="s1" data-value="titulo">FOTÓGRAFO</h1>
+                        <h1 class="text-2xl md:text-2xl lg:text-xl font-['Nunito'] text-slate-900" data-section="s1" data-value="titulo">FOTÓGRAFO</h1>
                         <div class="contenedor-padre flex justify-center items-center pb-1">
                             <div class="contenedor-hijo w-40 h-[2px] bg-secundario">
                             </div>
                         </div>
-                        <h1 class="text-5xl md:text-5xl lg:text-7xl font-['Yeseva_One'] text-slate-200" data-section="s1" data-value="nombre">IVAN FERNÁNDEZ</h1>
+                        <h1 class="text-5xl md:text-5xl lg:text-7xl font-['Yeseva_One'] text-slate-900" data-section="s1" data-value="nombre">IVAN FERNÁNDEZ</h1>
                     </div>
                     <div class="flex  gap-x-28 flex-wrap  justify-center">
                         <div class="flex pt-2">
                             <img src="../img/reloj.png" alt="" class="w-6 h-6 mr-1">
-                            <p class="text-slate-200" data-section="s1" data-value="op1">PAQUETE COMPLETO EN 2 DIAS</p>
+                            <p class="text-slate-800" data-section="s1" data-value="op1">PAQUETE COMPLETO EN 2 DIAS</p>
                         </div>
                         <div class="flex pt-2">
                             <img src="../img/gesto.png" alt="" class="w-6 h-6 mr-1">
-                            <p class="text-slate-200" data-section="s1" data-value="op2">SATISFACCION GARANTIZADA</p>
+                            <p class="text-slate-800" data-section="s1" data-value="op2">SATISFACCION GARANTIZADA</p>
                         </div>
                         <div class="flex pt-2">
                             <img src="../img/archivo.png" alt="" class="w-6 h-6 mr-1">
-                            <p class="text-slate-200" data-section="s1" data-value="op3">DISPARA PRIMERO, PAGAS DESPUÉS</p>
+                            <p class="text-slate-800" data-section="s1" data-value="op3">DISPARA PRIMERO, PAGAS DESPUÉS</p>
                         </div>
                     </div>
                     <div class="flex justify-center">
@@ -61,7 +79,7 @@
             </div>
         </div>
     </section>
-    <section class="w-full h-auto pt-24 lg:px-48 px-16 grid md:grid-cols-2 gap-12 justify-center">
+    <section id="about" class="z-[-100] w-full h-auto pt-24 lg:px-48 px-16 grid md:grid-cols-2 gap-12 justify-center">
         <div class="text-center">
             <h2 class="text-xs font-semibold text-white" data-section="s2" data-value="subtitulo">SOBRE MÍ</h2>
             <h1 class="text-3xl mt-12 font-bold text-secundario font-['Yeseva-One']" data-section="s2" data-value="titulo">FOTÓGRAFO PROFESIONAL</h1>
@@ -112,7 +130,7 @@
             </svg>
         </div>
     </div>
-    <section class=" text-white pt-16 px-8 relative bg-extra">
+    <section id="genres" class=" text-white pt-16 px-8 relative bg-extra">
         <div class="text-center">
             <p class="font-['Nunito']" data-section="s3" data-value="subtitulo">GÉNEROS</p>
             <h1 class="text-secundario text-3xl font-bold py-4 font-['Yeseva-One']" data-section="s3" data-value="titulo">ME ESPECIALIZO EN TODO</h1>
@@ -249,7 +267,7 @@
             </svg>
         </div>
     </div>
-    <section>
+    <section id="portfolio">
         <div class="pb-8">
             <h6 class="text-blanco text-xs text-center font-['Nunito']" data-section="s4" data-value="subtitulo">PORTAFOLIO</h6>
             <h1 class="text-secundario pt-4 text-center font-['Yeseva_One'] text-3xl px-4" data-section="s4" data-value="titulo">UNA IMAGEN VALE MÁS QUE MIL
@@ -339,7 +357,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-principal pt-16">
+    <div id="reviews" class="bg-principal pt-16">
         <h6 class="text-blanco text-xs text-center font-['Nunito']" data-section="s6" data-value="subtitulo">RESEÑAS</h6>
         <h1 class="text-secundario pt-4 text-center font-['Yeseva_One'] text-3xl px-4" data-section="s6" data-value="titulo">LEA LO QUE MIS CLIENTES TIENEN
             QUE DECIR
@@ -435,13 +453,13 @@
             </svg>
         </div>
     </div>
-    <div class="bg-extra text-gray-900 " id="contac">
+    <div id="feedback" class="bg-extra text-gray-900 " id="contac">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto px-7 ">
             <div>
                 <div class="max-w-6xl pt-2 mx-4 text-center">
 
                     <h1 class="text-3xl font-bold text-secundario sm:text-4xl md:w-96" data-section="s7" data-value="titulo">
-                        Feeback
+                        Feedback
                     </h1>
 
                     <p class="mt-4 text-zinc-200 md:w-96" data-section="s7" data-value="texto">

@@ -1,4 +1,12 @@
 {
+    "nav": {
+        "nav1": "INICIO",
+        "nav2": "SOBRE MI",
+        "nav3": "GÉNEROS",
+        "nav4": "PORTAFOLIO",
+        "nav5": "RESEÑAS",
+        "nav6": "FEEDBACK"
+    },
     "s1": {
         "titulo": "FOTÓGRAFO",
         "nombre": "IVAN FERNÁNDEZ",
